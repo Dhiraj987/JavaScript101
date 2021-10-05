@@ -57,3 +57,18 @@ console.log('first element is ' + selectedColors[0]);
 let selectedColorsPartTwo = [];
 selectedColorsPartTwo = ['Samaa', 13, true];
 console.log(selectedColorsPartTwo);
+
+
+
+// functions in JS
+function greet(){
+    console.log('Hello World');
+}
+greet();
+
+// function with inputs
+function greet_updated(name){
+    console.log('Hello '+ name);
+}
+
+greet_updated('Sammmm, is it?');
