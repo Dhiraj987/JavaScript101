@@ -45,3 +45,15 @@ console.log(person.name_for_here);
 person.name_for_here = "Sammy";
 
 console.log(person.name_for_here);
+
+
+// arrays
+
+let selectedColors = [];
+selectedColors = ['red', 'blue', 'green'];
+console.log(selectedColors);
+console.log('first element is ' + selectedColors[0]);
+
+let selectedColorsPartTwo = [];
+selectedColorsPartTwo = ['Samaa', 13, true];
+console.log(selectedColorsPartTwo);
