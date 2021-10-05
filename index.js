@@ -72,3 +72,21 @@ function greet_updated(name){
 }
 
 greet_updated('Sammmm, is it?');
+
+
+// performing a task
+function two_inputs(fname, lname){
+    console.log('Hello ' + fname + lname)
+}
+
+two_inputs('Greg ', 'Rae')
+
+
+function square(num){
+    return num * num
+}
+
+console.log(square(5))
+
+
+// good to know, console.log  is also a function
