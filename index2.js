@@ -58,3 +58,8 @@ console.log('1' == 1);   // this is true here because the values matches even th
 
 // for instance         true == '1' would convert 1 to a boolean and then compare them
 
+
+// Ternary Operator
+let points = 110;
+let type = points > 100 ? 'gold' : 'silver'     // ? here means if true whereas : means if false
+console.log(type)
