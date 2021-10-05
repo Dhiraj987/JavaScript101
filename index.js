@@ -5,8 +5,8 @@ let name = 'Sam';
 console.log("Hello " + name);
 
 // declaring variables
-let firstName = 'Sam'; 
-let lastName = "Ludwang";
+let firstName = 'Dave'; 
+let lastName = "Rock";
 console.log(firstName + ' ' + lastName);
 
 //constants
@@ -24,7 +24,7 @@ let iDontKnow = undefined   // Undefined Literal
 // types of the variables meaning (say) age above can be changed
 // to a String from Int -- we can use the chrome console to verify this
 
-age = 'Sam or Wam; its a string now';
+age = 'Wam; its a string now';
 
 //------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ age = 'Sam or Wam; its a string now';
 // these could be converted into an object by the following ways
 
 let person = {
-    name_for_here: 'Sam',
+    name_for_here: 'BARRY',
     age_for_here: 30
 };
 
