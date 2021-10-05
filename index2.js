@@ -48,8 +48,13 @@ console.log(a === 1);           // strict equality operator
 console.log(a != 1);
 
 
-console.log(1 == 1)             // loose equality operator
+console.log(1 == 1);             // loose equality operator
 
 // strict equality operator ensures that values that it compares are of same datatype 
 // which isn't the case with loose equality operator
-console.log('1' == 1)
+console.log('1' == 1);   // this is true here because the values matches even though the data types don't
+// while comparing the values, the loose equality operator converts the data type
+// of what's in the right side to what's on the left side
+
+// for instance         true == '1' would convert 1 to a boolean and then compare them
+
