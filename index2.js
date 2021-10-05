@@ -80,3 +80,23 @@ console.log('decisive loan', eligibleForLoan);
 let considerForLoan = highIncome || goodCreditScore;
 console.log('consider for loan', considerForLoan);
 
+
+
+// Falsy values  (False values)
+// undefined
+// null
+// 0
+// false
+// ''
+// Nan
+
+// everything else is Truthy
+
+console.log(false || 'red')
+console.log(0 || 'Dim')
+
+// an use case
+let default_color = 'red'
+let selected_color = ''
+
+console.log(selected_color || default_color)
