@@ -61,5 +61,22 @@ console.log('1' == 1);   // this is true here because the values matches even th
 
 // Ternary Operator
 let points = 110;
-let type = points > 100 ? 'gold' : 'silver'     // ? here means if true whereas : means if false
-console.log(type)
+let type = points > 100 ? 'gold' : 'silver';     // ? here means if true whereas : means if false
+console.log(type);
+
+
+
+// Logical Operator
+console.log(false && true);
+console.log(true && true);
+
+// an use case
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log('decisive loan', eligibleForLoan);
+
+let considerForLoan = highIncome || goodCreditScore;
+console.log('consider for loan', considerForLoan);
+
