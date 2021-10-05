@@ -32,8 +32,24 @@ console.log(--x)
 
 // Assignment Operator
 let x_for_assi = 10;
-x_for_assi = x_for_assi +5
+x_for_assi = x_for_assi +5;
 
 // equivalent to x += 5
 
-console.log(x_for_assi)
+console.log(x_for_assi);
+
+
+// comparison operator
+
+let a = 1;
+console.log(a > 0);
+console.log(a >= 1);
+console.log(a === 1);           // strict equality operator
+console.log(a != 1);
+
+
+console.log(1 == 1)             // loose equality operator
+
+// strict equality operator ensures that values that it compares are of same datatype 
+// which isn't the case with loose equality operator
+console.log('1' == 1)
