@@ -92,11 +92,28 @@ console.log('consider for loan', considerForLoan);
 
 // everything else is Truthy
 
-console.log(false || 'red')
-console.log(0 || 'Dim')
+console.log(false || 'red');
+console.log(0 || 'Dim');
 
 // an use case
-let default_color = 'red'
-let selected_color = ''
+let default_color = 'red';
+let selected_color = '';
 
-console.log(selected_color || default_color)
+console.log(selected_color || default_color);
+
+console.log( false || 2 || 1);      // this prints 2
+console.log(false || 1 || 3 )       // this prints 1
+// the operator here compares the first element is compared with the 
+// second, the moment it turns truly, it prints it out
+
+
+
+// bitwise operator
+// bitwise operator is denoted by | whereas logical or is denoted by ||
+// 00000001 -- 1
+// 00000010 -- 2
+// 
+
+console.log(1 | 2);   // it adds up to 3 (1 + 10 = 11 (3))
+console.log(1 & 2)      // it adds to 0 (01 * 10 = 0 )
+ 
