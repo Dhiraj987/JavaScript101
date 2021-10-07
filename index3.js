@@ -80,3 +80,48 @@ for (let i in person){
     console.log(person[i])
 }
 
+list_ = ['red', 'blue', 'green']
+
+for (ind in list_){
+    console.log(list_[ind])
+}
+
+// opposed to python, the for in loop gets the index or the 
+// key-for-reference in javascript
+
+
+console.log('------------------------')
+// for of loop
+
+for (let item of list_){
+    console.log(item)
+}
+
+for (let item in person)
+    console.log(person[item])
+// the for of loop here takes care of the index issue in JS
+// it refers to the item of the list and not the index
+
+// for.. in loop is used for objects (dictionaries)
+// for.. of loop is used for items in a list
+
+console.log('------------------------')
+for (let i = 0; i<5; i++){
+    if (i == 3) {
+        continue
+    }
+    console.log(i)
+}
+
+console.log('------------------------')
+for (let i = 0; i<5; i++){
+    if (i == 3) {
+        break
+    }
+    console.log(i)
+}
+
+// break breaks the loop whereas the continue jumps 
+// to the next iteration of the loop 
+
+
