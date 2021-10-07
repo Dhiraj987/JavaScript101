@@ -39,3 +39,44 @@ switch (role){
     default:
         console.log('Hey You, need help?')
 }
+
+
+// for loops -- similar to java
+for (let i = 0; i< 5; i++){
+        console.log('Hey There')
+    }
+
+
+for (let i = 0; i< 10; i++){
+    if (i % 2 == 0)
+        console.log('Even ', i)
+    else
+        console.log('Odd', i)
+}
+
+//while loop
+let i = 5;
+while (i < 10){
+    console.log('Hel')
+    i+= 1
+} 
+
+
+// do while loop (they are executed at least one no matter the condition)
+let j = 1
+do {
+    console.log('the do while loop is here')
+    j +=1
+} while (j<3)
+
+// for... in
+person = {
+    name: 'Priya',
+    age: 30,
+    location: 'JH'
+}
+
+for (let i in person){
+    console.log(person[i])
+}
+
