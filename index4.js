@@ -10,7 +10,7 @@ function max_num(num1, num2){
 }
 
 max_num(115,57)
-
+console.log('------------------------------')
 
 // the function takes in image width and image height
 // if width > heigh, the image is landscape
@@ -23,7 +23,7 @@ function is_landscape(img_width, img_height){
 }
 
 console.log(is_landscape(12,45))
-
+console.log('------------------------------')
 
 // the popular fizz_buzz
 function fizz_buzz(number){
@@ -44,7 +44,7 @@ function fizz_buzz(number){
 
 fizz_buzz(15)
 
-
+console.log('------------------------------')
 // check_speed function
 
 function check_speed(speed){
@@ -72,3 +72,51 @@ function check_speed(speed){
 }
 
 check_speed(130)
+console.log('------------------------------')
+
+// count truthy in the given array
+
+function count_truthy(array){
+    let count = 0;
+
+    for (let item of array){
+        if (item)
+            count += 1;
+    }
+    console.log(count)
+}
+
+count_truthy(['2', '', 'sdf', NaN, 1])
+
+console.log('------------------------------')
+
+// show properties of an object
+
+function show_properties(obj){
+    for (let key in obj){
+        if (typeof obj[key] === 'string')
+            console.log(obj[key]);
+    }
+}
+
+show_properties({title: 'name', rating: 4.5, director:"i don't know"})
+
+console.log('------------------------------')
+
+
+// function to add multiples of 3 and 5
+
+function add_multiples(num){
+    let total = 0;
+
+    for (let i = 1; i <= num; i++){
+        
+        if (i % 3 == 0 || i % 5 == 0)
+            total += i;
+
+    }
+    console.log(total)
+}
+
+add_multiples(10)
+
