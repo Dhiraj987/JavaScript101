@@ -115,8 +115,30 @@ function add_multiples(num){
             total += i;
 
     }
-    console.log(total)
+    console.log(total);
 }
 
-add_multiples(10)
+add_multiples(10);
 
+
+console.log('------------------------------')
+// show prime numbers upto limit
+ 
+function show_prime(limit){
+    for (let number = 2; number< limit; number++){
+        if (isPrime(number)) console.log(number)
+        
+    }
+}
+
+function isPrime(number) {
+for (let factor = 2; factor < number; factor++){
+    if ( number % factor === 0){
+        return false;
+        }
+    }
+return true;
+}
+
+
+show_prime(15)
