@@ -47,4 +47,34 @@ function create_circle(radius){
 const circle1 = create_circle(1);
 
 console.log(circle1)
+console.log('------------------------------')
+
+// constructor function -- this is similar to Java
+
+function Circle(radius){
+    this.radius = radius;
+    this.draw = function(){
+        console.log('draw')
+    } 
+    this.area = function(){
+        console.log(Math.PI*(radius**2))
+    }
+}
+
+const circle_1 = new Circle(2);
+console.log(circle_1.area())
+
+
+// three things happens when we use new keyword (similar to what happens in JAVA)
+// 1. the var/constant is pointed to an empty object {}
+// 2. the var/constant then is constructed by following **this** keywords in the
+//          constructor definition
+// 3. it then returns the newly created object
+
+// is_sunday = True (is also same as new) Boolean()
+
+num = new Number()
+console.log(num)
+
+
 
