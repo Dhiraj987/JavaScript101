@@ -85,3 +85,23 @@ const circle_line_78 = {
 for (let key in circle_line_78){
   console.log(key, circle_line_78[key])
 }
+
+// all the functions in JS are objects
+
+// ---------------------------------------------------
+// cloning an object in javascript
+
+Object.assign({}, circle_line_78);
+// takes in the object circle_line_78 and assigns everything in their to a brand new object
+// to assign it to some variable
+another = Object.assign({}, circle_line_78)
+
+console.log('from the new object', another['radius'])
+
+// we can also add some more attributes to this newly created object
+// by passing it in the {}
+another_at_103 = Object.assign({color:'yellow'}, another)
+// this new object will have color attribute along with all the others that came with the source object
+
+// we can also simply clone an object with this ->
+x = {...circle_line_78}
